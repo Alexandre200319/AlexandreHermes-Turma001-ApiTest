@@ -11,7 +11,7 @@ describe('Testes da API de Activities', () => {
 
   beforeEach(() => {
     validActivityData = {
-      id: 0, // Será ignorado no POST
+      id: 0, // Será ignorado no POST teste
       title: faker.lorem.words(3),
       dueDate: new Date().toISOString(),
       completed: faker.datatype.boolean()
